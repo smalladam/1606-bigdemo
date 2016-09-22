@@ -35,17 +35,17 @@ class BlogCard extends React.Component {
         color:'#727272',
       },
       title:{
-        fontSize:'20px',
+        fontSize:'1.6em',
         marginBottom:'20px'
       },
-      data:{
+      date:{
         color:'#00bcd4',
         fontSize:'16px',
         float:"right",
         paddingRight:'12px',
       },
       desc:{
-        fontSize:'18px',
+        fontSize:'1.4em',
         marginBottom:'20px'
       },
       btn:{
@@ -64,7 +64,7 @@ let address = `item/${this.props.url}`;
       <span style={styles.top}>{this.props.index}</span>
       </div>
       <div style={styles.content}>
-        <p style={styles.title}>{this.props.title}<em style={styles.data}>{this.props.data}</em></p>
+        <p style={styles.title}>{this.props.title}<em style={styles.date}>{this.props.date}</em></p>
         <p style={styles.desc}>{this.props.desc}</p>
         <Link style={styles.btn} className="blog-btn" to={address}>阅读更多</Link>
       </div>
