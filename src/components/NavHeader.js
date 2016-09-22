@@ -13,7 +13,7 @@ class NavHeader extends React.Component {
    return(
      <div className="nav-header">
         <p onClick={this.handleBack.bind(this)}><span className="glyphicon glyphicon-hand-left" aria-hidden="true"></span></p>
-        <h3>Smalladam own @{this.state.title}</h3>
+        <h3>Smalladam own @{this.props.title}</h3>
         <span className="glyphicon glyphicon-cog" aria-hidden="true" onClick={this.reload.bind(this)}></span>
      </div>
    )
