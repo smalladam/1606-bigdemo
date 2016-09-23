@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
+import RaisedButton from 'material-ui/RaisedButton';
 
 class LeftNav extends React.Component {
 
