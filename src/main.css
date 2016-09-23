@@ -182,6 +182,12 @@ a:hover,a:focus,a:active,a:visited{
   padding-left: 10px;
   border-radius: 0px 0px 5px 5px;
 }
+.about-container{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 35vh;
+  color: #00bcd4;
+}
 .nav-footer{
   height:60px;
   background-color: #00bcd4;
